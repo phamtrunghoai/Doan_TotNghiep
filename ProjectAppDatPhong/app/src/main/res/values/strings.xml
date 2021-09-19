@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppDatPhongKhachSan</string>
+    <string name="actionhome">Trang Chủ</string>
+    <string name="actionsave">Đã Lưu</string>
+    <string name="actionnotification">Thông Báo</string>
+    <string name="actionaccount">Tài Khoản</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
