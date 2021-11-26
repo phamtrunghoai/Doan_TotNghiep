@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activity.Sign_in">
+    <LinearLayout
+        android:id="@+id/linearsignin"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#062170"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Traveling.com"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold"></TextView>
+            </androidx.appcompat.widget.Toolbar>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <com.google.android.material.tabs.TabLayout
+                app:tabSelectedTextColor="#062170"
+                android:id="@+id/tablayoutsigin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </com.google.android.material.tabs.TabLayout>
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewpagersignin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </androidx.viewpager.widget.ViewPager>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.DatPhong"
+    android:background="#FAFBFB">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarDatPhong"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="Đặt Phòng"
+        app:titleTextColor="#FFFFFF"
+        android:background="#3F51B5">
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.SearchView
+            app:queryHint="Tìm khách sạn..."
+            app:iconifiedByDefault="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </androidx.appcompat.widget.SearchView>
+        <Button
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btnMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_signup"
+            android:text="Bản đồ"
+            android:textColor="#2196F3"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:backgroundTint="#D4E3EA" />
+    </LinearLayout>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.tabs.TabLayout
+            app:tabSelectedTextColor="#199A0F"
+            android:id="@+id/tablayout_datphong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </com.google.android.material.tabs.TabLayout>
+    </HorizontalScrollView>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager_datphong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+</LinearLayout>

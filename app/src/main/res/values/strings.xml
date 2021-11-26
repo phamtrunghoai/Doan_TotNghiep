@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AppDatPhongKhachSan</string>
+    <string name="actionhome">Trang Chủ</string>
+    <string name="actionsave">Đã Lưu</string>
+    <string name="actionnotification">Thông Báo</string>
+    <string name="actionaccount">Tài Khoản</string>
+
+    <string name="all_hotel_frament">All fragment</string>
+    <string name="hotel_24h_frament">Hotel 24h fragment</string>
+    <string name="freepay_hotel_framnet">FreePay fragment</string>
+    <string name="giamgia_frament">Giam gia fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="g_i">Gửi</string>
+
+    <string name="map_api_key">AIzaSyCzoKNX5sKXGI_FLXwqEjuZbOQztkgsXoA</string>
+</resources>

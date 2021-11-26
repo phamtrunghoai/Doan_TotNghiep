@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "510322627976",
+    "project_id": "appkhachsan",
+    "storage_bucket": "appkhachsan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510322627976:android:1377701c4e2730c4fb163d",
+        "android_client_info": {
+          "package_name": "com.example.appdatphongkhachsan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510322627976-s68p247dhsm4obnoqpp3h2lo941tubsm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbZfPC-sCGtg27BLcgGu9iLCyMJNJvUYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510322627976-s68p247dhsm4obnoqpp3h2lo941tubsm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
